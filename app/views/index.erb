@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Sinatra MVC</title>
-  </head>
+    <head>
+        <title>Sample Buzzfeed Quiz</title>
+    </head>
+    
+    <body>
+        <h1>~ The Cool Test ~</h1>
+    <form action="/results" method="post">
+        
+      <h2>What is your gender?</h2>
+        <input type="radio" name="gender" value="10">Boy<br>
+        <input type="radio" name="gender" value="20">Girl<br>
+        <input type="radio" name="gender" value="10">Other
+        
+        <h2>Do you play a sport?</h2>
+        <input type="radio" name="sport" value="1">Yes<br>
+        <input type="radio" name="sport" value="2"> No<br>
+        <!--<input type="radio" name="restriction" value="6">None<br>-->
+        
+        <h2> Do you code? </h2>
+        <input type="radio" name="code" value="1" >Yes<br>
+        <input type="radio" name="code" value="2">No <br> <br>
+        <!--<input type="radio" name="thing" value="2">Nuts<br>-->
 
-  <body>
-    <h1>Index</h1>
-    <p> I love programming </p>
-  </body>
+          <!--the values are the numbers and each number is important because what these -->
+          <!--numbers add up to (number pathway/combo) determines the kind of cookie they'll have as a result-->
+
+          <button type = "submit" class="new"> See if you're cool here! </button>
+      </form>
+    </body>
 </html>
